@@ -12,7 +12,7 @@ print("反挂机开启")
 		   wait(1)
 		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 		end)
-local OrionLib = loadstring(game:HttpGet('https://pastebin.com/raw/GxreJinS'))()
+local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/Zki5/-hub/main/OrionLib'))()
 local Window = OrionLib:MakeWindow({Name = "亦hub", HidePremium = false, SaveConfig = true,IntroText = "欢迎使用亦hub", ConfigFolder = "欢迎使用亦hub"})
 local about = Window:MakeTab({
     Name = "亦Hub V2",
