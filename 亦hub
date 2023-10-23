@@ -20,11 +20,13 @@ local about = Window:MakeTab({
     PremiumOnly = false
 })
 
+about:AddParagraph("作者:zki5")
+about:AddParagraph("若封号概不负责🤣")
 about:AddParagraph("您的用户名:"," "..game.Players.LocalPlayer.Name.."")
 about:AddParagraph("您的注入器:"," "..identifyexecutor().."")
 about:AddParagraph("您当前服务器的ID"," "..game.GameId.."")
 local Tab = Window:MakeTab({
-  Name = "通用脚本",
+  Name = "通用脚本😊",
   Icon = "rbxassetid://4483345998",
   PremiumOnly = false
   })
@@ -191,7 +193,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name="我要紫砂",
+    Name="我要紫砂😂",
     Callback=function()
         game.Players.LocalPlayer.Character.Humanoid.Health=0
 HumanDied = true
@@ -293,7 +295,7 @@ local Tab = Window:MakeTab({
 })
 
 local Tab = Window:MakeTab({
-  Name = "脚本中心",
+  Name = "脚本中心👍",
   Icon = "rbxassetid://4483345998",
   PremiumOnly = false
   })
